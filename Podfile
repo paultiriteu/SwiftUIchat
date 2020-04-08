@@ -6,5 +6,11 @@ target 'FirstSwiftUI' do
   use_frameworks!
 
   # Pods for FirstSwiftUI
+  pod 'GoogleSignIn'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'MessageKit'
+  pod 'Firebase/Firestore'
+  pod 'SDWebImage'
 
 end
