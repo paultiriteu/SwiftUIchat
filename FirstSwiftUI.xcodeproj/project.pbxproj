@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		3C2E5345242293AD009672AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E5344242293AD009672AD /* Preview Assets.xcassets */; };
 		3C2E5348242293AD009672AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E5346242293AD009672AD /* LaunchScreen.storyboard */; };
 		3CEB9CE524262CEA00D98F13 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB9CE424262CEA00D98F13 /* ChatController.swift */; };
+		3CEE1698243E350C00933859 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE1697243E350C00933859 /* GoogleService-Info.plist */; };
 		4267E32F002E4D6E4D881E62 /* Pods_FirstSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646136DDFC9F4A3DE41B238C /* Pods_FirstSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		3C2E5347242293AD009672AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C2E5349242293AD009672AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CEB9CE424262CEA00D98F13 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		3CEE1697243E350C00933859 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		488A489E2A6294EB50184000 /* Pods-FirstSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-FirstSwiftUI/Pods-FirstSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		646136DDFC9F4A3DE41B238C /* Pods_FirstSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 				3C2E5349242293AD009672AD /* Info.plist */,
 				3C2E5343242293AD009672AD /* Preview Content */,
 				3CEB9CE424262CEA00D98F13 /* ChatController.swift */,
+				3CEE1697243E350C00933859 /* GoogleService-Info.plist */,
 			);
 			path = FirstSwiftUI;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				01A39CC37E1B6B59896930D4 /* Pods-FirstSwiftUI.debug.xcconfig */,
 				488A489E2A6294EB50184000 /* Pods-FirstSwiftUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -165,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2E5348242293AD009672AD /* LaunchScreen.storyboard in Resources */,
+				3CEE1698243E350C00933859 /* GoogleService-Info.plist in Resources */,
 				3C2E5345242293AD009672AD /* Preview Assets.xcassets in Resources */,
 				3C2E5342242293AD009672AD /* Assets.xcassets in Resources */,
 			);
