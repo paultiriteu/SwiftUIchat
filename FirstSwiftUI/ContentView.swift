@@ -14,7 +14,7 @@ struct ChatMessage: Hashable {
     var color: Color
     var isMe = false
 }
-
+//test for git
 struct ContentView: View {
     @State var composedMessage = ""
     @EnvironmentObject var chatController: ChatController
